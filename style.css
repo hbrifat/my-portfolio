@@ -171,3 +171,55 @@ button span {
     color: #474747;
 }
 
+/* What I Do */
+
+
+
+.what-i-do {
+    margin-bottom: 130px;
+}
+
+.what-i-do > h2 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #181818;
+    text-align: center;
+}
+
+.what-i-do > p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+    margin: 30px 115px 50px;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-box {
+    box-shadow: 0 6px 50px rgba(0,0,0,0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-description > h4 {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    margin: 30px 0 20px;
+}
+
+.skill-description > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #757575;
+    padding: 3px;
+}
+
