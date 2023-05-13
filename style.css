@@ -11,7 +11,7 @@
 header{
     background-color: #FFF8F3;
     background-image: url("images/header_bg.png"), url("images/developer.png");
-    background-position: right bottom, left center;
+    background-position: right bottom, 25px center;
     background-repeat: no-repeat;
 }
 
@@ -26,8 +26,17 @@ header{
     font-size: 20px;
     font-weight: 700;
     font-style: normal;
-    border: none;
+    border: 1px solid #FD6E0A;
     border-radius: 5px;
+}
+
+.btn-primary:hover{
+    color: #FD6E0A;
+    background-color: white;
+}
+.btn-secondary:hover{
+    color: #FFFFFF;
+    background-color: #FD6E0A;
 }
 
 .btn-secondary{
@@ -65,7 +74,9 @@ nav{
 
 .nav-menu li a{
     text-decoration: none;
+    color: #474747;
 }
+
 
 /* Bio Section */
 
@@ -103,6 +114,10 @@ button span {
     font-weight: 400;
     color: #757575;
     margin-bottom: 30px;
+}
+
+.bio-details button {
+    margin-right: 20px;
 }
 
 .bio img {
